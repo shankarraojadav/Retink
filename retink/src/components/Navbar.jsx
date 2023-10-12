@@ -93,7 +93,7 @@ export default function Navbar() {
                 <IconButton>
                     <Box
                     component="img"
-                    src="" />
+                    src={photoURL ? photoURL : <Avatar />} />
                 </IconButton>
             </Toolbar>
         </AppBar>
